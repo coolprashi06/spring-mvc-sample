@@ -93,6 +93,12 @@
       <version>1.2.17</version>
     </dependency>
 
+    <!--
+    CANNOT FIND ANY REPO HAVING SERVLET-API-3.1.0.JAR HENCE MANUALLY PROVIDING THE JAR
+    download servlet-api 3.1.0 jar
+    from https://jar-download.com/download/javax.servlet-api-jar-3.1.0-download-with-dependencies.php
+    and save it to your .m2 repo under your desired path and replace systemPath mentioned below with path on your system
+    -->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>servlet-api</artifactId>
