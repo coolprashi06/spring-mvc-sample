@@ -96,7 +96,9 @@
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>servlet-api</artifactId>
-      <version>2.5</version>
+      <version>3.1.0</version>
+      <scope>system</scope>
+      <systemPath>/Users/prashastsaxena/.m2/repository/javax/servlet/servlet-api/3.1.0/javax.servlet-api-3.1.0.jar</systemPath>
     </dependency>
 
   </dependencies>
@@ -109,5 +111,17 @@
         <filtering>true</filtering>
       </resource>
     </resources>
+
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.6</version>
+        <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+        </configuration>
+      </plugin>
+    </plugins>
+
   </build>
 </project>
