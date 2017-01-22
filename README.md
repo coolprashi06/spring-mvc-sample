@@ -55,7 +55,7 @@ e.g.
 calling /hello request would show up hello.jsp page and name parameter on hello.jsp page would be dynamically replaced with name passed in this request.
 ```
 
-#### Configure SpringMvc without web.xml
+### Configure SpringMvc without web.xml
 
 ##### add servlet-api.jar to your project
 
@@ -143,7 +143,7 @@ e.g.
 in the above example I instructed this code to activate spring profile "test"..
 
 
-#### References:
+### References:
 * http://stackoverflow.com/questions/22315672/how-to-configure-spring-mvc-with-pure-java-based-configuration
 * https://kielczewski.eu/2013/11/spring-mvc-without-web-xml-using-webapplicationinitializer/
 * http://codetutr.com/2013/04/09/spring-mvc-easy-rest-based-json-services-with-responsebody/
